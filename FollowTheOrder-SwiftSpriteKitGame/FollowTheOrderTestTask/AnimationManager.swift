@@ -49,7 +49,7 @@ class AnimationManager {
     
     private func scaleAction(_ node: SKNode) {
         let scaleDecrease = SKAction.scale(to: 0.9, duration: 0.1)
-        let scaleIncrease = SKAction.scale(to: 1.2, duration: 0.1)
+        let scaleIncrease = SKAction.scale(to: 1.2, duration: 0.2)
         let scaleNormal = SKAction.scale(to: 1, duration: 0.1)
         
         let sequenceAction = SKAction.sequence([scaleDecrease, scaleIncrease, scaleNormal])
